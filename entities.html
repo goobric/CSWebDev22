@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+  style="
+    *,
+    ::after,
+    ::before,
+    box-sizing: inherit;
+    "
+  lang="en"
+>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,17 +34,108 @@
     <h2>Table of reserved HTML characters</h2>
     <!-- less than <, greater than >, forward slash /, ampersand &, exclamation point !, -->
     <table
-      style="width: 100%; border-bottom: 1px solid gray; border-spacing: 0"
+      style="
+        padding: 5px;
+        width: 100%;
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
+        border-left: 1px solid gray;
+        border-spacing: 0;
+      "
     >
       <tbody>
         <tr>
-          <th style="width: 35%">Description</th>
-          <th style="width: 35%">Character</th>
-          <th style="width: 35%">Entity Name</th>
-          <th style="width: 35%">Entity Number</th>
+          <th
+            style="
+              width: 30%;
+              border-right: 1px solid gray;
+              border-bottom: 1px solid gray;
+            "
+          >
+            Description
+          </th>
+          <th
+            style="
+              width: 20%;
+              border-right: 1px solid gray;
+              border-bottom: 1px solid gray;
+            "
+          >
+            Character
+          </th>
+          <th
+            style="
+              width: 25%;
+              border-right: 1px solid gray;
+              border-bottom: 1px solid gray;
+            "
+          >
+            Entity Name
+          </th>
+          <th style="width: 25%; border-bottom: 1px solid gray">
+            Entity Number
+          </th>
+        </tr>
+        <tr>
+          <td style="border-right: 1px solid red; text-align: center">
+            less-than
+          </td>
+          <td style="border-right: 1px solid red; text-align: center">&#60;</td>
+          <td style="border-right: 1px solid red; text-align: center">& lt;</td>
+          <td style="text-align: center">& #60;</td>
+        </tr>
+        <tr>
+          <td style="border-right: 1px solid red; text-align: center">
+            greater-than
+          </td>
+          <td style="border-right: 1px solid red; text-align: center">&#62;</td>
+          <td style="border-right: 1px solid red; text-align: center">& gt;</td>
+          <td style="text-align: center">& #62;</td>
+        </tr>
+        <tr>
+          <td style="border-right: 1px solid red; text-align: center">
+            ampersand
+          </td>
+          <td style="border-right: 1px solid red; text-align: center">&#38;</td>
+          <td style="border-right: 1px solid red; text-align: center">
+            & amp;
+          </td>
+          <td style="text-align: center">& #38;</td>
+        </tr>
+        <tr>
+          <td style="border-right: 1px solid red; text-align: center">
+            exclamation point
+          </td>
+          <td style="border-right: 1px solid red; text-align: center">&#33;</td>
+          <td style="border-right: 1px solid red; text-align: center">
+            & excl;
+          </td>
+          <td style="text-align: center">& #33;</td>
+        </tr>
+        <tr>
+          <td style="border-right: 1px solid red; text-align: center">
+            quotation mark
+          </td>
+          <td style="border-right: 1px solid red; text-align: center">&#34;</td>
+          <td style="border-right: 1px solid red; text-align: center">
+            & quot;
+          </td>
+          <td style="text-align: center">& #34;</td>
+        </tr>
+        <tr>
+          <td style="border-right: 1px solid red; text-align: center">
+            apostrophe
+          </td>
+          <td style="border-right: 1px solid red; text-align: center">&#39;</td>
+          <td style="border-right: 1px solid red; text-align: center">
+            & apos;
+          </td>
+          <td style="text-align: center">& #39;</td>
         </tr>
       </tbody>
     </table>
+    <br />
 
     <a href="https://entitycode.com/">Entity Codes</a>
   </body>
