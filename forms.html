@@ -115,5 +115,28 @@
       <button>Search Google</button>
       <!-- https://www.google.com/search?q=kitten -->
     </form>
+    <h3>Yet another external form query</h3>
+    <p>a form using the YouTube Search function</p>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" placeholder="search for..." />
+      <button>Search YouTube</button>
+      <!-- https://www.youtube.com/results?search_query=Colt+Steele -->
+    </form>
+    <p></p>
+    <h2>Inputs</h2>
+    <form action="birds">
+      <input type="checkbox" name="agree_to" id="agree" />
+      <label for="agree">I agree to everything</label>
+      <p>
+        <!-- Radio Button requires the 'name' and 'value' attribute -->
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="x-small" />
+        <label for="s">S:</label>
+        <input type="radio" name="size" id="s" value="small" />
+        <label for="m">M:</label>
+        <input type="radio" name="size" id="m" value="medium" />
+      </p>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
