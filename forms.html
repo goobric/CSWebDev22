@@ -44,7 +44,7 @@
       >
       from MDN.
     </p>
-    <form action="https://www.dogpile.com">
+    <form action="tacos/">
       <p>
         <label for="username">enter a username: </label>
         <input
@@ -101,5 +101,19 @@
       form element, there is no default behaviour.
     </p>
     <button>outside of form</button>
+    <h3>External form query</h3>
+    <p>a form using the Reddit Search function</p>
+    <form action="https://www.reddit.com/search">
+      <input type="text" name="q" placeholder="search for..." />
+      <button>Search Reddit</button>
+      <!-- https://www.reddit.com/search?q=puppy -->
+    </form>
+    <h3>Another external form query</h3>
+    <p>a form using the Google Search function</p>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" placeholder="search for..." />
+      <button>Search Google</button>
+      <!-- https://www.google.com/search?q=kitten -->
+    </form>
   </body>
 </html>
