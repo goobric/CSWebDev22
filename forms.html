@@ -39,7 +39,9 @@
     </p>
     <p>this is an <a href="">input example</a> from MDN.</p>
     <form action="">
-      <input type="text" placeholder="text here" />
+      <label for="username">enter a username</label>
+      <input id="username" type="text" placeholder="text here" />
+      <p></p>
       <input type="password" placeholder="password" />
       <input type="number" />
       <input type="color" placeholder="number" />
@@ -50,6 +52,11 @@
       from the user with the input type. The text from the label is associated
       with the input type. Selecting the text associated with the input,
       activates the input element.
+    </p>
+    <p>
+      the &#60;label&#62; has <strong>two</strong> corresponding attributes:
+      <em>for</em> and <em>id</em> these <strong>MUST</strong> contain the same
+      value, which is unique for that label and input.
     </p>
   </body>
 </html>
