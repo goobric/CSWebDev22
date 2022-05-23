@@ -44,25 +44,36 @@
       >
       from MDN.
     </p>
-    <form action="">
+    <form action="https://www.dogpile.com">
       <p>
         <label for="username">enter a username: </label>
-        <input id="username" type="text" placeholder="text here" />
+        <input
+          id="username"
+          type="text"
+          placeholder="text here"
+          name="username"
+        />
       </p>
       <p>
         <label for="password">enter a password: </label
-        ><input id="password" type="password" placeholder="password" />
+        ><input
+          id="password"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
       </p>
       <p>
         <label for="number">enter a number: </label
-        ><input id="number" type="number" />
+        ><input id="number" type="number" name="num" />
       </p>
       <p>
         <label for="color">choose a color: </label
-        ><input id="color" type="color" />
+        ><input id="color" type="color" name="color" />
       </p>
       <button>submit</button>
     </form>
+    <h2>Important</h2>
     <p>
       the &#60;label&#62; element is extremely important, with forms and input
       types. The <strong>label</strong> links together the value of the input
@@ -79,5 +90,16 @@
       inspecting the above form, using the Dev Tools, shows that each
       <strong>label</strong> has a unique <em>for</em> and <em>id</em> value.
     </p>
+    <h3>Buttons</h3>
+    <p>
+      when a &#60;button&#62; element is placed <strong>inside</strong> the form
+      element, the default action is to complete the &#60;form
+      action&equals;&quot;&quot;&#62;
+    </p>
+    <p>
+      when a &#60;button&#62; element is placed <strong>outside</strong> of the
+      form element, there is no default behaviour.
+    </p>
+    <button>outside of form</button>
   </body>
 </html>
