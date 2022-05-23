@@ -17,8 +17,13 @@
     <h2>Early Usage</h2>
     <p>
       In the early days of the world-wide-web, tables were commonly used to
-      create page layouts. Now tables should only the
-      <strong>table</strong> elements to display actual data
+      create page layouts. Now tables should only use the
+      <strong>table</strong> elements to display actual data <em>NOT</em> page
+      layout.
+    </p>
+    <p>
+      CSS is used for the layout and design of the
+      <strong>table</strong> structure
     </p>
     <h2>Lots of Elements</h2>
     <p>
@@ -27,7 +32,7 @@
     </p>
     <p>
       tabular data held within a <strong>table</strong> is not very accessible.
-      Therefore, table semantic elements are used. These assist screen readers.
+      Therefore, semantic table elements are used. These assist screen readers.
     </p>
     <h3>A list of table elements</h3>
     <!-- <table> <thead> <tbody> <tfoot> <tr> <td> <th> <colgroup> <caption> <dd> -->
@@ -35,8 +40,8 @@
     <table>
       <thead>
         <tr>
-          <td>Table Element</td>
-          <td>Description</td>
+          <th>Table Element</th>
+          <th>Description</th>
         </tr>
       </thead>
       <tbody>
@@ -61,8 +66,31 @@
             Which holds the main data that is being displayed.
           </td>
         </tr>
+        <tr>
+          <td>&#60;tfoot&#62;</td>
+          <td>
+            similar to the &#60;footer&#62; element in meaning, but for the
+            table. Which holds the final summarized data information.
+          </td>
+        </tr>
+        <tr>
+          <td>&#60;tr&#62;</td>
+          <td>creates one row within the table</td>
+        </tr>
+        <tr>
+          <td>&#60;td&#62;</td>
+          <td>creates one data cell within the table</td>
+        </tr>
+        <tr>
+          <td>&#60;th&#62;</td>
+          <td>
+            creates one data cell within the table-header, containing the title
+            heading of the column.
+          </td>
+        </tr>
       </tbody>
     </table>
+    <p>these additional <em>attributes</em> can be used with table elements</p>
 
     <h3>Example web sites that commonly use tables.</h3>
     <p>
