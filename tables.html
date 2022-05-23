@@ -25,7 +25,44 @@
       To create a table of data, 5-10 different <strong>table</strong> elements
       are available to use. These are listed in the table below
     </p>
+    <p>
+      tabular data held within a <strong>table</strong> is not very accessible.
+      Therefore, table semantic elements are used. These assist screen readers.
+    </p>
     <h3>A list of table elements</h3>
+    <!-- <table> <thead> <tbody> <tfoot> <tr> <td> <th> <colgroup> <caption> <dd> -->
+    <!-- < &#60; > &#62;-->
+    <table>
+      <thead>
+        <tr>
+          <td>Table Element</td>
+          <td>Description</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&#60;table&#62;</td>
+          <td>
+            top level element, similar to the &#60;html&#62; element in meaning,
+            but for the table.
+          </td>
+        </tr>
+        <tr>
+          <td>&#60;thead&#62;</td>
+          <td>
+            similar to the &#60;header&#62; element in meaning, but for the
+            description of each column within the table.
+          </td>
+        </tr>
+        <tr>
+          <td>&#60;tbody&#62;</td>
+          <td>
+            similar to the &#60;body&#62; element in meaning, but for the table.
+            Which holds the main data that is being displayed.
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
     <h3>Example web sites that commonly use tables.</h3>
     <p>
@@ -43,8 +80,12 @@
       >
     </p>
     <p>
-      no endorsement of Casper, this site displays their
+      no endorsement of Casper, this site displays
       <a href="https://casper.com/mattresses/">mattresses</a> in tabular format
+    </p>
+    <p>
+      in contrast, this is the <a href="spacejam.com">Space Jam</a> website from
+      the 1990s. All constructed with tables.
     </p>
   </body>
 </html>
