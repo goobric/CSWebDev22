@@ -37,14 +37,30 @@
       the <strong>type</strong> alters the behaviour and appearance of the
       <em>input</em>
     </p>
-    <p>this is an <a href="">input example</a> from MDN.</p>
+    <p>
+      this is an
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"
+        >input example</a
+      >
+      from MDN.
+    </p>
     <form action="">
-      <label for="username">enter a username</label>
-      <input id="username" type="text" placeholder="text here" />
-      <p></p>
-      <input type="password" placeholder="password" />
-      <input type="number" />
-      <input type="color" placeholder="number" />
+      <p>
+        <label for="username">enter a username: </label>
+        <input id="username" type="text" placeholder="text here" />
+      </p>
+      <p>
+        <label for="password">enter a password: </label
+        ><input id="password" type="password" placeholder="password" />
+      </p>
+      <p>
+        <label for="number">enter a number: </label
+        ><input id="number" type="number" />
+      </p>
+      <p>
+        <label for="color">choose a color: </label
+        ><input id="color" type="color" />
+      </p>
     </form>
     <p>
       the &#60;label&#62; element is extremely important, with forms and input
@@ -57,6 +73,10 @@
       the &#60;label&#62; has <strong>two</strong> corresponding attributes:
       <em>for</em> and <em>id</em> these <strong>MUST</strong> contain the same
       value, which is unique for that label and input.
+    </p>
+    <p>
+      inspecting the above form, using the Dev Tools, shows that each
+      <strong>label</strong> has a unique <em>for</em> and <em>id</em> value.
     </p>
   </body>
 </html>
