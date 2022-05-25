@@ -137,6 +137,25 @@
         <input type="radio" name="size" id="m" value="medium" />
       </p>
       <p>
+        <label for="meal">Please select an Entree</label>
+        <select name="meal" id="meal">
+          <option value="fish">Fish</option>
+          <option value="veg">Vegetarian</option>
+          <option value="steak">Steak</option>
+        </select>
+      </p>
+      <p>
+        <label for="cheese">Amount of Cheese:</label>
+        <input
+          type="range"
+          id="cheese"
+          min="1"
+          max="100"
+          value="75"
+          name="cheese"
+        />
+      </p>
+      <p>
         <label for="requests">Any Special Requests?</label>
         <br />
         <textarea
