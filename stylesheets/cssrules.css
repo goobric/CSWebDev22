@@ -1,2 +1,17 @@
 /* CSS RULES STYLES */
 
+.external {
+    color: indigo;
+}
+
+button {
+    color: magenta;
+}
+
+p {
+    color: olivedrab;
+}
+
+h2 {
+    background-color: brown;
+}
